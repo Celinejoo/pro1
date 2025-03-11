@@ -1,0 +1,22 @@
+# 맥에서 올라지 않았으면 하는 내용
+*.DS_Store
+*.log
+*.tsbuildinfo
+
+# yarn npm module에서 올라가지 않았으면 하는 것
+.pnp.*
+.yarn/install-state.gz
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+**/packge-lock.json
+**/node_modules/
+
+# 빌드 결과물이 업로드 되지 않도록
+**/dist/* 
+# ** 와일드 카드, 
+dist
+# root path에 있는 dist 
+
