@@ -14,6 +14,7 @@
     "build": "npm run clean && npm run build:js && npm run build:type",
     "build:js": "node build.js",
     "build:type": "tsc --emitDeclarationOnly",
+    "build:css": "node ./scripts/build-css-module.js",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
